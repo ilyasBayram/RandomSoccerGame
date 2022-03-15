@@ -20,7 +20,7 @@ namespace RandomLig
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (textBox1.Text=="admin" && textBox2.Text=="1234")
+            if (textBox1.Text== Properties.Settings.Default.Username && textBox2.Text== Properties.Settings.Default.Password)
             {
                 //if entered values are correct it opens second form and close this one.
                 Form2 game = new Form2();
